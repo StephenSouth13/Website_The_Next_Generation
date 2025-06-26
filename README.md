@@ -2,7 +2,11 @@
 
 Official landing page for an indie game made in Unity. Built with **Next.js 15**, **Tailwind CSS**, **Three.js**, and **Firebase**.
 
-Deployed on [Vercel](https://vercel.com) 🌐
+Demo on: https://website-the-next-generation-o323.vercel.app/
+> ![image](https://github.com/user-attachments/assets/94c3642a-1f85-41d5-951a-e2e779e52d2b)
+
+> ![image](https://github.com/user-attachments/assets/f7f18f25-1122-46e7-9b99-df1b8a5d3f26)
+> ![image](https://github.com/user-attachments/assets/c3a0fe71-2a77-4559-921b-0b969cf847ed)
 
 ---
 
@@ -29,21 +33,6 @@ Deployed on [Vercel](https://vercel.com) 🌐
 
 ---
 
-## 📁 Structure (simplified)
-
-.
-├── app/ # Pages (about, contact, models, play, etc.)
-├── components/ # UI components (header, footer, theme toggle)
-├── lib/ # Firebase init, utils
-├── public/ # 3D models, Unity WebGL build
-├── styles/ # Global CSS
-├── hooks/, config files...
-
-yaml
-Copy
-Edit
-
----
 
 ## 🛠️ Local Setup
 
