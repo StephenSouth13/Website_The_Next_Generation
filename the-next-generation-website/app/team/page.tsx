@@ -5,48 +5,51 @@ import { Github, Mail, Code, Palette, Music, Gamepad2 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
-const teamMembers = [
+
+
+  const teamMembers = [
   {
-    name: "Long Quách (StephenSouth13)",
-    role: "Lead Developer & Project Manager",
+    name: "Quách Thành Long",
+    role: "Lead Developer & Web/Game Developer",
     description: "Chịu trách nhiệm chính trong việc phát triển game và quản lý dự án. Có kinh nghiệm với Unity và C#.",
-    avatar: "/placeholder.svg?height=200&width=200",
-    skills: ["Unity", "C#", "Game Design", "Project Management"],
+    avatar: "/members/Long.png",
+    skills: ["Unity", "C#", "Game Design", "Project Management","React", "Next.js"],
     github: "https://github.com/StephenSouth13",
-    email: "longquachdev@gmail.com",
+    email: "stephensouth1307@gmail.com",
     icon: Code,
   },
   {
-    name: "Minh Nguyễn",
-    role: "UI/UX Designer",
-    description: "Thiết kế giao diện người dùng và trải nghiệm game. Chuyên về visual design và user experience.",
-    avatar: "/placeholder.svg?height=200&width=200",
-    skills: ["UI Design", "UX Research", "Figma", "Adobe Creative Suite"],
+    name: "Lê Gia Huy",
+    role: "Game Programmer/Developer",
+    description: "Lập trình gameplay mechanics và system. Chuyên về optimization và performance tuning.",
+    avatar: "/members/Huy.png",
+    skills: ["C#", "Unity", "Algorithm", "Performance Optimization"],
     github: "https://github.com/minhdesigner",
     email: "minh.designer@gmail.com",
+    icon: Code,
+  },
+  {
+    name: "Lương Nguyễn Tấn Dũng",
+    role: "Game Programmer/Developer",
+    description: "Lập trình gameplay mechanics và system. Chuyên về optimization và performance tuning.",
+    avatar: "/members/Dung.png",
+    skills: ["C#", "Unity", "Algorithm", "Performance Optimization"],
+    github: "https://github.com/DungLuong1602",
+    email: "dunglnt.125010124006@vtc.edu.vn",
+    icon: Code,
+  },
+  {
+    name: "Thuận Jesus",
+    role: "Sound Designer",
+    description: "Vẽ 3D cho game, tạo mô hình và texture. Có kinh nghiệm với  Substance Painter.",
+    avatar: "/members/Thuan.png",
+    skills: ["Audio Engineering", "Sound Effects", "FL Studio", "Mixing & Mastering"],
+    email: "thuantc.124020124035@vtc.edu.vn",
+    github: "#",
     icon: Palette,
   },
-  {
-    name: "Hùng Trần",
-    role: "Game Programmer",
-    description: "Lập trình gameplay mechanics và system. Chuyên về optimization và performance tuning.",
-    avatar: "/placeholder.svg?height=200&width=200",
-    skills: ["C#", "Unity", "Algorithm", "Performance Optimization"],
-    github: "https://github.com/hungcoder",
-    email: "hung.programmer@gmail.com",
-    icon: Gamepad2,
-  },
-  {
-    name: "Linh Phạm",
-    role: "Sound Designer",
-    description: "Tạo ra âm thanh và nhạc nền cho game. Chuyên về audio engineering và sound effects.",
-    avatar: "/placeholder.svg?height=200&width=200",
-    skills: ["Audio Engineering", "FL Studio", "Sound Effects", "Music Composition"],
-    github: "https://github.com/linhsound",
-    email: "linh.sound@gmail.com",
-    icon: Music,
-  },
 ]
+
 
 export default function TeamPage() {
   return (

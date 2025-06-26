@@ -15,7 +15,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Một tựa game indie thư giãn được phát triển bởi nhóm sinh viên tại VTC Academy.
+              Một tựa game indie chữa lành được phát triển bởi nhóm sinh viên tại VTC Academy.
             </p>
           </div>
 

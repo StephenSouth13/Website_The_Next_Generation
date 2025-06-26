@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "The Next Generation - Indie Game Showcase",
   description: "Một tựa game indie thư giãn được phát triển bằng Unity bởi nhóm sinh viên tại VTC Academy",
-    generator: 'v0.dev'
+    generator: 'The Next Generation Website',
 }
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="vi" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <div className="min-h-screen flex flex-col">
             <Header />

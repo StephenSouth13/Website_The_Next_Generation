@@ -107,7 +107,7 @@ export default function DonatePage() {
                 />
               </div>
               <div className="space-y-2">
-                <p className="text-white font-medium">PayPal: longquachdev@gmail.com</p>
+                <p className="text-white font-medium">PayPal: stephensouth1307@gmail.com</p>
                 <p className="text-gray-400 text-sm">Hỗ trợ thanh toán quốc tế</p>
               </div>
               <Button className="bg-blue-600 hover:bg-blue-700 text-white">Donate via PayPal</Button>
