@@ -19,7 +19,7 @@ import Link from "next/link"
     icon: Code,
   },
   {
-    name: "Lê Gia Huy",
+    name: "Nguyễn Lê Gia Huy",
     role: "Game Programmer/Developer",
     description: "Lập trình gameplay mechanics và system. Chuyên về optimization và performance tuning.",
     avatar: "/members/Huy.png",
