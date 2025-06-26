@@ -79,14 +79,13 @@ export function Footer() {
                 <Mail className="h-5 w-5" />
               </Link>
             </div>
-            <p className="text-xs text-muted-foreground">Email: longquachdev@gmail.com</p>
+            <p className="text-xs text-muted-foreground">Email: stephensouth13@gmail.com</p>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-border/40 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 The Next Generation. Made with <Heart className="inline h-4 w-4 text-red-500" /> by VTC Academy
-            Students.
+            © 2025 The Next Generation. Made with <Heart className="inline h-4 w-4 text-red-500" /> by The Next Generation
           </p>
           <p className="text-sm text-muted-foreground">Powered by Unity & React</p>
         </div>
