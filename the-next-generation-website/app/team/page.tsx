@@ -24,8 +24,8 @@ import Link from "next/link"
     description: "Lập trình gameplay mechanics và system. Chuyên về optimization và performance tuning.",
     avatar: "/members/Huy.png",
     skills: ["C#", "Unity", "Algorithm", "Performance Optimization"],
-    github: "https://github.com/minhdesigner",
-    email: "minh.designer@gmail.com",
+    github: "https://github.com/GiaHuy1106",
+    email: "huynlg.124010124044@vtc.edu.vn ",
     icon: Code,
   },
   {
