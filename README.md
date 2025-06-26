@@ -1,101 +1,105 @@
-# 🎮 The Next Generation – Game Landing Page
+🎮 The Next Generation – Official Game Landing Page
+A stunning, high-performance landing page built with Next.js 15, Tailwind CSS, Firebase, and Three.js to spotlight an indie Unity game project. This website serves as the all-in-one platform to present gameplay, showcase 3D assets, introduce the development team, and more.
 
-A modern website built with **Next.js 15**, **Tailwind CSS**, **Firebase**, and **Three.js** to showcase an indie game project developed in Unity. This site serves as the official portal for presenting the game, development team, gameplay, 3D models, and more.
+Crafted for creators, gamers, and believers in innovation.
 
----
+🚀 Key Features at a Glance
+🔹 Section	💡 Description
+🏠 Home	Eye-catching intro to the game universe
+👥 Team	Meet the passionate developers behind the scenes
+💬 Contact	Built-in Firebase form to reach out instantly
+☕ Donate	Support us via MoMo, PayPal, and more
+❓ FAQ	Answers to common player & supporter questions
+🧊 Models	Real-time 3D viewer for .fbx assets using @react-three/fiber
+🎮 Play	Directly play the Unity WebGL version inside an iframe
+🌗 Dark Mode	Toggle between light/dark themes effortlessly
+📱 Responsive	Fully mobile-friendly and accessible on all devices
 
-## 🚀 Features
+🧱 Technology Stack
+This site harnesses the power of modern web and game development tools:
 
-| Section       | Description |
-|---------------|-------------|
-| 🏠 Home        | General introduction about the game |
-| 👨‍👩‍👧 Team      | Introduce the development team |
-| 💬 Contact     | Contact form integrated with Firebase Realtime Database |
-| ☕ Donate      | Donation information (Momo, PayPal, etc.) |
-| ❓ FAQ         | Frequently asked questions |
-| 🧊 Models      | Interactive 3D `.fbx` model viewer using `@react-three/fiber` |
-| 🎮 Play        | Embed Unity WebGL game via `<iframe>` |
-| 🌙 Dark Mode   | Switch between light/dark themes |
-| 📱 Responsive  | Fully responsive layout on all screen sizes |
+⚛ Next.js 15 – App Router architecture
 
----
+🌀 React 19
 
-## 🧱 Tech Stack
+🎨 Tailwind CSS + tailwindcss-animate
 
-- **Next.js 15 (App Router)**
-- **React 19**
-- **Tailwind CSS + tailwindcss-animate**
-- **Radix UI** components
-- **Firebase Realtime Database**
-- **Three.js + @react-three/fiber + @react-three/drei**
-- **React Hook Form + Zod**
-- **Lucide Icons, Sonner Toast, Embla Carousel**
-- **Vercel (Hosting & CI/CD)**
+🎛 Radix UI – Accessible and headless UI components
 
----
+🔥 Firebase Realtime Database
 
-## 📂 Folder Structure
+🧠 Three.js + @react-three/fiber, @react-three/drei
 
+🧾 React Hook Form + Zod (form validation done right)
+
+🌟 Lucide Icons, Sonner Toast, Embla Carousel
+
+🚀 Vercel – Instant deployment, CI/CD, and global CDN
+
+🗂 Project Structure
+pgsql
+Copy
+Edit
 .
 ├── app/
-│ ├── about/
-│ ├── contact/
-│ ├── donate/
-│ ├── faq/
-│ ├── models/
-│ ├── play/
-│ ├── team/
-│ ├── globals.css
-│ ├── layout.tsx
-│ └── page.tsx
+│   ├── about/         → Game concept, vision, and storytelling
+│   ├── contact/       → Firebase-powered contact form
+│   ├── donate/        → Donation info
+│   ├── faq/           → Common questions
+│   ├── models/        → Interactive 3D viewer
+│   ├── play/          → Unity WebGL embed
+│   ├── team/          → Developer bios
+│   ├── layout.tsx     → Global layout template
+│   └── page.tsx       → Main landing page
+│
 ├── components/
-│ └── ui/
-│ ├── footer.tsx
-│ ├── header.tsx
-│ ├── theme-provider.tsx
-│ └── theme-toggle.tsx
-├── hooks/
-│ ├── use-mobile.tsx
-│ └── use-toast.ts
-├── lib/
-│ ├── firebase.ts ← Firebase init here
-│ └── utils.ts
+│   ├── ui/            → Header, Footer, ThemeToggle, etc.
+│   └── theme-provider.tsx
+│
+├── hooks/             → Custom React hooks
+│   ├── use-mobile.tsx
+│   └── use-toast.ts
+│
+├── lib/               → Utility functions & Firebase init
+│   ├── firebase.ts
+│   └── utils.ts
+│
 ├── public/
-│ ├── models/ ← .fbx / .glb files here
-│ ├── placeholder-*.svg/.jpg/.html
-│ └── webgl/index.html ← Unity WebGL build here
+│   ├── models/        → .fbx / .glb 3D assets
+│   ├── webgl/         → Unity WebGL build folder
+│   └── placeholder assets
+│
 ├── styles/
-│ └── globals.css
+│   └── globals.css
+│
 ├── tailwind.config.ts
 ├── postcss.config.mjs
 ├── next.config.mjs
 ├── package.json
 └── tsconfig.json
-
-
-📦 Run Locally
+⚙️ Run Locally
 bash
 Copy
 Edit
 # Install dependencies
 npm install
 
-# Start dev server
+# Start development server
 npm run dev
-📤 Deploy to Vercel
-Push this repo to GitHub
+🚀 Deploy in Seconds
+Push this project to GitHub
 
-Go to https://vercel.com → New Project
+Go to Vercel → Click New Project
 
-Select your repo
+Select the repository
 
-Vercel will auto-detect Next.js and deploy 🎉
+Vercel auto-detects your stack and deploys instantly 🎉
 
-👨‍💻 Author
-🎓 Developed by Long Quách Thành – github.com/StephenSouth13
+👨‍💻 About the Developer
+👤 Quách Thành Long – Indie Developer, UI Enthusiast, and Game Programmer
+📂 GitHub: github.com/StephenSouth13
+🎓 A student project at VTC Academy
+💌 Get in touch via the [Contact Page] or through the integrated Firebase form
 
-👨‍💻 Student project at VTC Academy
-
-💌 Contact via the contact page or Firebase form
-
-📜 License
+📄 License
+Open-source under MIT – free to learn from, remix, or contribute.
