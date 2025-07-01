@@ -36,7 +36,7 @@ export default function AboutPage() {
           </div>
           <div className="relative">
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/about/hero.png"
               alt="Game Story"
               width={600}
               height={400}

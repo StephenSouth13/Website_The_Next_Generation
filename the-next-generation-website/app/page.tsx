@@ -108,7 +108,7 @@ export default function HomePage() {
             {[1, 2, 3, 4, 5, 6].map((i) => (
               <div key={i} className="relative group overflow-hidden rounded-lg">
                 <Image
-                  src={`/placeholder.svg?height=300&width=400`}
+                  src={`/img/roomaround.png`}
                   alt={`Game Screenshot ${i}`}
                   width={400}
                   height={300}
