@@ -74,7 +74,7 @@ export default function DonatePage() {
             <CardContent className="text-center space-y-4">
               <div className="bg-white p-4 rounded-lg inline-block">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="/payment/momo.png"
                   alt="Momo QR Code"
                   width={200}
                   height={200}
@@ -82,7 +82,7 @@ export default function DonatePage() {
                 />
               </div>
               <div className="space-y-2">
-                <p className="text-white font-medium">Số điện thoại: 0123456789</p>
+                <p className="text-white font-medium">Số điện thoại: 0388686567</p>
                 <p className="text-gray-400">Tên: Long Quách</p>
                 <p className="text-gray-400 text-sm">Quét mã QR hoặc chuyển khoản trực tiếp</p>
               </div>
@@ -99,18 +99,19 @@ export default function DonatePage() {
             <CardContent className="text-center space-y-4">
               <div className="bg-white p-4 rounded-lg inline-block">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
-                  alt="PayPal QR Code"
+                  src="/payment/bank.png"
+                  alt="Momo QR Code"
                   width={200}
                   height={200}
                   className="mx-auto"
                 />
               </div>
               <div className="space-y-2">
-                <p className="text-white font-medium">PayPal: stephensouth1307@gmail.com</p>
-                <p className="text-gray-400 text-sm">Hỗ trợ thanh toán quốc tế</p>
+                <p className="text-white font-medium">Số tài khoản: 0001244698984</p>
+                <p className="text-gray-400">Quách Thành Long</p>
+                <p className="text-gray-400 text-sm">Quét mã QR hoặc chuyển khoản trực tiếp</p>
               </div>
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white">Donate via PayPal</Button>
+              
             </CardContent>
           </Card>
         </div>
