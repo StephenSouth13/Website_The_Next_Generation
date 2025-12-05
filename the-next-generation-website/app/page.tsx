@@ -108,12 +108,13 @@ export default function HomePage() {
             {[1, 2, 3, 4, 5, 6].map((i) => (
               <div key={i} className="relative group overflow-hidden rounded-lg">
                 <Image
-                  src={`/img/roomaround.png`}
-                  alt={`Game Screenshot ${i}`}
-                  width={400}
-                  height={300}
-                  className="w-full h-64 object-cover transition-transform group-hover:scale-110"
-                />
+  src={`/img/${i}.png`}
+  alt={`Game Screenshot ${i}`}
+  width={400}
+  height={300}
+  className="w-full h-64 object-cover transition-transform group-hover:scale-110"
+/>
+
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
             ))}
