@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "framer-motion": "^12.22.0"
+    "framer-motion": "^12.22.0",
+    "react-unity-webgl": "^10.1.6"
   }
 }
