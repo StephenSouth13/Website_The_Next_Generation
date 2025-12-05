@@ -85,7 +85,7 @@ export default function TeamPage() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
-          {["4", "6+", "1000+", "∞"].map((number, idx) => (
+          {["4", "6+", "24h+", "∞"].map((number, idx) => (
             <div key={idx} className="text-center">
               <div className={`text-4xl font-bold text-purple-400 mb-2`}>{number}</div>
               <div className="text-gray-300">
